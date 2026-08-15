@@ -2,7 +2,8 @@
 
 Software Engineer in NAVER corp.
 
-[benelog.net](https://benelog.net) · [LinkedIn](https://www.linkedin.com/in/benelog)
+* Homepage: [https://benelog.net](https://benelog.net)
+* LinkedIn : <https://www.linkedin.com/in/benelog>
 
 ## Open source projects
 
