@@ -21,14 +21,17 @@ Small tools I have released: one command, no install, no config file.
 
 ### Reaching a running server
 
-- **[shell-proxy](https://github.com/benelog/shell-proxy)** `Java`: A proxy server that executes shell commands through URL calls.
+- **[shell-proxy](https://github.com/benelog/shell-proxy)** `Go`: An HTTP server that runs shell commands and returns the result as JSON, with a terminal-style web UI. Stateless by default as a single static binary, or `--interactive` for a real PTY streamed to a browser terminal, enough to run `vi` or `top`.
 - **[dumper](https://github.com/benelog/dumper)** `Java`: A small web application for downloading a Java stack dump from a browser.
 
 ## Open source contributions
 
-- **[Spring Batch](https://github.com/spring-projects/spring-batch)**: Bug fixes and API additions, including `JobParameters` propagation in `MetaDataInstanceFactory`, delete operations for `ResourcelessJobRepository`, and a `Callable` constructor for `CallableTaskletAdapter`.
-- **[Spring Boot](https://github.com/spring-projects/spring-boot)**: Corrections to the Batch auto-configuration properties and their documentation.
-- **[Robolectric](https://github.com/robolectric/robolectric)**: Shadow implementations, including `ShadowProcess` and a reimplementation of `ShadowCookieManager` on top of Apache HttpClient's `CookieStore`.
-- **[Apache Struts](https://github.com/apache/struts)**: Corrections to logging messages, applied to both the 2.3.x and 2.5.x branches.
-- **[Fixture Monkey](https://github.com/naver/fixture-monkey)**: Build and CI work, including test, SpotBugs and Checkstyle reporting on GitHub Actions, and the release build setup.
-- **[Spring JDBC Plus](https://github.com/naver/spring-jdbc-plus)**: Test and Checkstyle reporting on GitHub Actions, and an expanded README.
+Each link opens the pull requests I sent to that project.
+
+- **[Spring Batch](https://github.com/spring-projects/spring-batch/pulls?q=is%3Apr+author%3Abenelog)**: Bug fixes and API additions, including `JobParameters` propagation in `MetaDataInstanceFactory`, delete operations for `ResourcelessJobRepository`, and a `Callable` constructor for `CallableTaskletAdapter`.
+- **[Spring Boot](https://github.com/spring-projects/spring-boot/pulls?q=is%3Apr+author%3Abenelog)**: Corrections to the Batch auto-configuration properties and their documentation.
+- **[Robolectric](https://github.com/robolectric/robolectric/pulls?q=is%3Apr+author%3Abenelog)**: Shadow implementations, including `ShadowProcess` and a reimplementation of `ShadowCookieManager` on top of Apache HttpClient's `CookieStore`.
+- **[Apache Struts](https://github.com/apache/struts/pulls?q=is%3Apr+author%3Abenelog)**: Corrections to logging messages, applied to both the 2.3.x and 2.5.x branches.
+- **[Fixture Monkey](https://github.com/naver/fixture-monkey/pulls?q=is%3Apr+author%3Abenelog)**: Build and CI work, including test, SpotBugs and Checkstyle reporting on GitHub Actions, and the release build setup.
+- **[Spring JDBC Plus](https://github.com/naver/spring-jdbc-plus/pulls?q=is%3Apr+author%3Abenelog)**: Test and Checkstyle reporting on GitHub Actions, and an expanded README.
+- **[tz database](https://github.com/eggert/tz/commit/929c14a3d8ce505a9b8fb7099bee3a03ccf7e8e4)**: Corrections to Korean time zone history. Many pre-1989 time stamps for `Asia/Seoul` and `Asia/Pyongyang` were fixed from my report, released in tzdata 2014j. The tz project takes patches by mailing list, so this one links to the commit instead.
