@@ -28,5 +28,7 @@ Small tools I have released: one command, no install, no config file.
 
 - **[Spring Batch](https://github.com/spring-projects/spring-batch)**: Bug fixes and API additions, including `JobParameters` propagation in `MetaDataInstanceFactory`, delete operations for `ResourcelessJobRepository`, and a `Callable` constructor for `CallableTaskletAdapter`.
 - **[Spring Boot](https://github.com/spring-projects/spring-boot)**: Corrections to the Batch auto-configuration properties and their documentation.
-- **[Spring Framework](https://github.com/spring-projects/spring-framework)**: Javadoc and reference documentation fixes, mostly around the JDBC support.
 - **[Robolectric](https://github.com/robolectric/robolectric)**: Shadow implementations, including `ShadowProcess` and a reimplementation of `ShadowCookieManager` on top of Apache HttpClient's `CookieStore`.
+- **[Apache Struts](https://github.com/apache/struts)**: Corrections to logging messages, applied to both the 2.3.x and 2.5.x branches.
+- **[Fixture Monkey](https://github.com/naver/fixture-monkey)**: Build and CI work, including test, SpotBugs and Checkstyle reporting on GitHub Actions, and the release build setup.
+- **[Spring JDBC Plus](https://github.com/naver/spring-jdbc-plus)**: Test and Checkstyle reporting on GitHub Actions, and an expanded README.
