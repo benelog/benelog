@@ -7,7 +7,7 @@ Software Engineer in NAVER corp.
 
 ## Open source projects
 
-Small tools I have released: one command, no install, no config file.
+Small tools I have released.
 
 ### File transfer
 
@@ -33,6 +33,4 @@ Each link opens the pull requests I sent to that project.
 - **[Spring Boot](https://github.com/spring-projects/spring-boot/pulls?q=is%3Apr+author%3Abenelog)**: Corrections to the Batch auto-configuration properties and their documentation.
 - **[Robolectric](https://github.com/robolectric/robolectric/pulls?q=is%3Apr+author%3Abenelog)**: Shadow implementations, including `ShadowProcess` and a reimplementation of `ShadowCookieManager` on top of Apache HttpClient's `CookieStore`.
 - **[Apache Struts](https://github.com/apache/struts/pulls?q=is%3Apr+author%3Abenelog)**: Corrections to logging messages, applied to both the 2.3.x and 2.5.x branches.
-- **[Fixture Monkey](https://github.com/naver/fixture-monkey/pulls?q=is%3Apr+author%3Abenelog)**: Build and CI work, including test, SpotBugs and Checkstyle reporting on GitHub Actions, and the release build setup.
-- **[Spring JDBC Plus](https://github.com/naver/spring-jdbc-plus/pulls?q=is%3Apr+author%3Abenelog)**: Test and Checkstyle reporting on GitHub Actions, and an expanded README.
-- **[tz database](https://github.com/eggert/tz/commit/929c14a3d8ce505a9b8fb7099bee3a03ccf7e8e4)**: Corrections to Korean time zone history. Many pre-1989 time stamps for `Asia/Seoul` and `Asia/Pyongyang` were fixed from my report, released in tzdata 2014j. The tz project takes patches by mailing list, so this one links to the commit instead.
+- **[tz database](https://github.com/eggert/tz/commit/929c14a3d8ce505a9b8fb7099bee3a03ccf7e8e4)**: Corrections to Korean time zone history. Many pre-1989 time stamps for `Asia/Seoul` and `Asia/Pyongyang` were fixed from my report, released in tzdata 2014j.
